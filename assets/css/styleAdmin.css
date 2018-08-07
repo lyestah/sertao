@@ -1,0 +1,141 @@
+/* AREA ADMIN */
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Oswald:200,300,400,500,600,700|Quicksand:300,400,500,700|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+    /* 
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+     */
+*{padding:0;margin:0;}
+.all{
+		display: flex;		
+}
+/* AREAINICIAL */
+.topo{
+	height: 300px;
+	background-image: url('../img/bgtopo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+/* AREA ADOMIN */
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+
+}
+.menu{
+	
+	flex: 1;
+	height: 100vh;
+	background-color:#000;
+	top: 0px;
+	box-shadow: 0px 0px 6px #444;
+}
+
+.userArea{
+  height: 200px;
+  background-color: #dedede;
+  background-image: url('../img/bgUser.png');
+  background-size: cover;
+  text-align: center;
+}
+.userArea img{
+	border-radius: 50%;
+	margin-top: 30px;
+	text-align: center;
+	border: solid 5px rgba(255, 255, 255, 0.6);
+}
+.usuario{
+ 
+}
+.usuario h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 10px;
+} 
+.usuario h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  color: #fff;
+}
+.headMenu{
+  font-family: 'Roboto', sans-serif;
+  font-size: 158px;
+  color: #000;
+}
+.headMenu h1{
+	width: 100%;
+	height: 30px;
+}
+.cab{
+	text-align: center;
+	color: #fff;
+}
+/* MENU */
+
+
+
+/* FIMDOMENU */
+
+/* CONTEUDO */
+.conteudo{
+    flex: 4;
+    height: 100vh;
+	background-color: #fafafa;
+	top: 0px;
+	overflow: auto;
+}
+.conteudo1{
+	padding: 10px;
+}
+.box{
+	display: flex;
+	flex-wrap: wrap;
+}
+.boxnovidade{
+	width: 200px;
+	height: auto;
+	margin: 5px;
+	padding: 10px;
+	box-shadow: 0px 0px 2px #a5a5a5;
+	text-align: center;
+	border: solid 1px #d5d5d5;
+}
+.boxnovidade img{
+	margin-top: 10px;
+	border-radius: 50%;
+	
+}
+.boxnovidade h1{
+  font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+.boxnovidade span{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	font-size: 14px;
+}
+.butt{
+	width: 205px;
+height: 40px;
+border: 1px dashed #9be;
+background-color: transparent;
+border-radius: 5%;
+}
+
+
+
+
+
+
+
+
+
+

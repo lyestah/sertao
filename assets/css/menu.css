@@ -1,0 +1,22 @@
+.nav{
+ text-align: center;
+}
+.nav ul{
+
+}
+.nav ul li{
+  display: block;
+  height: 40px;
+  background-color: rgba(255,255,255,0.1);
+  /* border: solid 1px #fff; */
+  color: #fff;
+  list-style: none;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 3px;
+}
+.nav ul li a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}

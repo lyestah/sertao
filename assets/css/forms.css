@@ -1,0 +1,22 @@
+.inp{
+	height: 40px; 
+	min-width: 90%;
+	border: none;
+	margin-bottom: 5px;
+	padding-left: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+
+}
+.but{
+	height: 40px; 
+	min-width: 90%;
+	border: none;
+	margin-bottom: 5px;
+	background-color: #45c7fa;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #fff;
+}
